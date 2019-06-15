@@ -13,7 +13,9 @@ import java.util.Enumeration;
 import java.util.Properties;
 
 /**
- * Hello world!
+ * Register Raspberry Pi nodes to Aliyun ACM service. https://www.MaoJianwei.com/
+ *
+ * @author Jianwei Mao
  */
 public class MaoPiServiceDiscoveryClient {
 
@@ -29,9 +31,6 @@ public class MaoPiServiceDiscoveryClient {
         properties.put("namespace", "$namespace");
         properties.put("accessKey", "$accessKey");
         properties.put("secretKey", "$secretKey");
-        // 如果是加密配置，则添加下面两行进行自动解密
-        //properties.put("openKMSFilter", true);
-        //properties.put("regionId", "$regionId");
 //        logger.info("properties:\n{}", properties);
 
 
